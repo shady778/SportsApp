@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		562DF1E92FBC99390071A127 /* Exceptions for "SportsApp" folder in "SportsApp" target */ = {
+		562DF1E92FBC99390071A127 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +21,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		562DF1D92FBC99380071A127 /* SportsApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				562DF1E92FBC99390071A127 /* Exceptions for "SportsApp" folder in "SportsApp" target */,
-			);
-			path = SportsApp;
-			sourceTree = "<group>";
-		};
+		562DF1D92FBC99380071A127 /* SportsApp */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (562DF1E92FBC99390071A127 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = SportsApp; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +92,7 @@
 				};
 			};
 			buildConfigurationList = 562DF1D22FBC99380071A127 /* Build configuration list for PBXProject "SportsApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +101,6 @@
 			);
 			mainGroup = 562DF1CE2FBC99380071A127;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 562DF1D82FBC99380071A127 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
